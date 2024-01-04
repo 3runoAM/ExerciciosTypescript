@@ -13,4 +13,3 @@ let d = c.apple * 4
 // let d:number = c.apple * 4
 
 console.log("Hello World!")
-
