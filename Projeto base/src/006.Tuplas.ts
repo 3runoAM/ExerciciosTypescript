@@ -1,12 +1,5 @@
 // Uma tupla que tem dois elementos, o primeiro é uma string e o segundo é um number
-type pessoaInfo = [string, number];
-
-let pessoa1: pessoaInfo = ["João", 20];
-let pessoa2: pessoaInfo = ["Maria", 30];
-let pessoa3: pessoaInfo = ["José", 40];
-
-let pessoasList: Array<pessoaInfo> = [pessoa1, pessoa2, pessoa3];
-
+let pessoaInfo: [string, number] = ["João", 25];
 let carroInfo: [string, string, number, boolean] = ["Gol", "Volkswagen", 2020, true]
 
 // Tuplas com elementos opcionais

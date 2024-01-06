@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
-    /* Language and Environment */
+    /* Language and Environment*/
     "target": "es2020",
     /* Modules */
     "module": "commonjs",
     /* Interop Constraints */
-  "esModuleInterop": true,
+    "preserveConstEnums": true,
+    "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     /* Type Checking */
     "strict": true,
