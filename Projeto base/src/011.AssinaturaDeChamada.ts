@@ -8,3 +8,11 @@ let soma: somaCallSignature = (num1, num2= 0) => {
 }
 
 console.log(soma(2));
+console.log(soma(2, 3));
+
+// Podemos declarar uma assinatura de chamada de forma abreviada... SHORTHAND CALL SIGNATURE
+type log = (message: string, userId?: string) => void
+// ...como também de forma mais verbosa. // FULL CALL SIGNATURE
+type Log = {
+    (message: string, userId?: string): void
+}
